@@ -1,0 +1,67 @@
+body{
+     background: url("images/blur-background09.jpg")
+}
+.main{
+    display: block;
+    background-color: #bce8f1;
+    margin-bottom: 0px;
+    margin: auto;
+    margin-top: 100px;
+    width: 400px;
+    height: 290px;
+    box-shadow: #5bc0de;
+}
+.login-welcome {
+     height: 50px;
+     text-align: center;
+     font-family: Elephant;
+     color: whitesmoke;
+     background-color: forestgreen;
+ }
+
+input[type=text]{
+    margin: 15px;
+    width: 320px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=password]{
+    margin-left: 15px;
+    width: 320px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 90%;
+}
+input[type=submit]{
+    background-color: forestgreen;
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 15px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+input[type=password]:focus {
+    width: 90%
+    }
